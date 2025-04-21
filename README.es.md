@@ -8,19 +8,9 @@ Cada vez que se recarga la página (F5), se renderiza y anima uno de los SVG sel
 
 ---
 
-## ▶️ Video de demostración
+## ▶️ Demo
 
-<video
-autoplay
-muted
-loop
-playsinline
-preload="auto" 
-width="600" height="400">
-
-<source src="video/demo.mp4" type="video/mp4">
-Tu navegador no soporta el vídeo.
-</video>
+![Cry4Dev demo](images/demo.gif)
 
 ---
 

@@ -8,19 +8,9 @@ Each time the page is reloaded (F5), one of the randomly selected SVGs is render
 
 ---
 
-## ▶️ Demo Video
+## ▶️ Demo
 
-<video
-autoplay
-muted
-loop
-playsinline
-preload="auto" 
-width="600" height="400">
-
-<source src="video/demo.mp4" type="video/mp4">
-Your browser does not support the video.
-</video>
+![Cry4Dev demo](images/demo.gif)
 
 ---
 
