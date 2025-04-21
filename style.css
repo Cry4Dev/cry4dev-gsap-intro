@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgb(32, 31, 31);
+  color: #eeeeee;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.loading-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+      ellipse at center,
+      #0f2027 0%,
+      #203a43 40%,
+      #2c5364 100%
+    ),
+    linear-gradient(to right, #1f005c, #5b0060, #870000);
+  background-blend-mode: overlay;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: center;
+  justify-content: center;
+  color: #191654;
+}
+
+.logo-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.name-container {
+  height: 40px;
+  overflow: hidden;
+}
+
+.logo-name {
+  font-size: 1.2rem;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(90deg, #ff0057, #00f2fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#dmc,
+#logo,
+#jackpot {
+  height: 250px;
+  width: 250px;
+  stroke: white;
+  fill: none;
+  stroke-width: 3px;
+  display: none;
+}
